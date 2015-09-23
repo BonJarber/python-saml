@@ -418,3 +418,5 @@ class Assertion(_Message):
 
     # Statements that are being asserted about the included subject.
     statements = Element(Statement, collection=True)
+    
+    attributes = Element(AttributeStatement)
